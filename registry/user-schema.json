@@ -1,0 +1,20 @@
+{
+    "type":"record",
+    "namespace":"registry.tutoriel",
+    "name": "UserInfo",
+    "fields":[
+        {
+            "name":"username",
+            "type":"string",
+            "doc":"username est un string"
+        },
+        {
+            "name":"age",
+            "type":"int",
+            "doc":"age est un int"
+        }
+    ],
+    "doc":"pas obligatoire"
+
+
+}
